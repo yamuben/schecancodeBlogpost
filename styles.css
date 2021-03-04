@@ -1,0 +1,179 @@
+.topnav{
+    background-color: wheat;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 60px;
+}
+.topnav a:hover{
+    background-color: whitesmoke;
+
+}
+ a.active{
+    background-color: whitesmoke;
+}
+
+.logo-container{
+    width: 15%;
+    margin: 5px;
+}
+.logo{
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+.search-container  {
+
+    /* position: fixed; */
+    float: right;
+    width: 55%;
+    padding: 10px 10px;
+    padding-left: 30%;
+    margin-top:65px ;
+    background-color: blanchedalmond;
+    border: none;
+    font-size: 20px;
+    height: 35px;
+}
+.input-search {
+    height:30px ;
+    width: 50%;
+    padding-left: 20px;
+    border: none;
+}
+button{
+    height: 35px;
+    width: 80px;
+    margin-left:-40px;
+    border: none;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    /* z-index: 10; */
+    top: 65px;
+    left: 0;
+    background-color: blanchedalmond;
+    overflow-x: hidden;
+    padding-left: 0px;
+  }
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+.sidenav a:hover{
+    background-color: white;
+}
+.card-container{    
+    height: 100%;
+    width: 85%;
+    margin-left: 15%;
+    top: 120px;
+    left: 15%;
+    /* background-color: rgb(99, 85, 85); */
+    overflow-x: hidden;
+    padding: 10px;
+}
+.card-container::after{
+    display: table;
+}
+.card{
+    /* border-radius: 3%; */
+    padding: 10px;
+    width: 20%;
+    box-shadow: 0 4px 8px rgb(182, 182, 182);
+    transition: 0.5s;
+    float: left;
+    margin: 10px;
+    height: 50%;
+
+}
+.card-pic{
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-container a{
+    text-decoration: none;
+}
+.carddisplay{
+    margin: 0px 15% 15%;
+    width: 70%;
+}
+p{
+    font-size: medium; font-weight: lighter;margin-bottom: 0px;
+}
+.comment-card{
+    width: 100%;
+    height: 500px;
+    /* background-color: ; */
+    margin-top: 50px;
+}
+.comment-posted{
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    width: 92%;
+    /* height: 50px; */
+    padding: 5px 30px 10px ;
+    margin-top: 5px;
+
+}
+/* Full-width input fields */
+.txtlogin {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  .model button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .login-card{
+      margin: 45%;
+      margin-top: -50%;
+      width: 20%;
+      height: 300px;
+      background-color: whitesmoke;
+      padding: 20px 20px;
+      display: none;
+      position: fixed;
+      
+  }
+  .close{
+
+  }
