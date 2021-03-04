@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Blog Post</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="#">Aboutus</a>
+            <a  onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Signin</a>
+            <a  class="active" href="index.html">Home</a>   
+            <div class="logo-container"> 
+
+                <img src="./img/logo.png" class="logo"> 
+            </div>
+                  
+
+        </div>
+        <div class="search-container">
+            <form>
+                <input type="text" placeholder="Search..." name="search" class="input-search">
+                <button type="submit"> <i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="sidenav">
+            <h2 style="margin-left: 10px;"> Categories</h2>
+            <a class="active" href="index.html">Testmony</a>
+            <a href="#services">Inspirations Story</a>
+            <a href="#clients">Funny Post</a>
+            <a href="#contact">Video Blogs</a>
+            <a href="#services">Interviews</a>
+            <a href="#clients">Case Studies</a>
+            <a href="#contact">Local news</a>
+          </div>
+
+         
+            <div class="card-container">
+          
+             
+                <div class="card">
+                    <h2 style="text-align: center; font-size: 30px;"> My Story</h2>
+                    <a href="display.html">
+                        <img src="./img/me.jpg" class="card-pic"></a>
+                    <p style="font-size: medium; margin: 0px; font-weight: lighter; text-decoration: none;"> Posted by: <b> Benjamin</b></p>
+                    <p style="font-size: small; font-weight: lighter;margin-bottom: 0px;"> believe I am a person who dreams big and has big ambitions in life. ... I believe I am a person with empathy. I usually don't get angry and I always try to understand why pe....</p>
+                    <a href="display.html" style="text-decoration: none;"> <h6 style="text-align: right;margin: 0px;">Read more...</h6></a>
+                
+
+                </div>
+             
+                <div class="card">
+                    <h2 style="text-align: center; font-size: 30px;"> Woman Makeup</h2>
+                    <a href="display.html">
+                        <img src="./img/woman.jpg" class="card-pic"></a>
+                    <p style="font-size: medium; margin: 0px; font-weight: lighter; text-decoration: none;"> Posted by: <b> Benjamin</b></p>
+                    <p style="font-size: small; font-weight: lighter;margin-bottom: 0px;"> believe I am a person who dreams big and has big ambitions in life. ... I believe I am a person with empathy. I usually don't get angry and I always try to understand why pe....</p>
+                    <a href="display.html" style="text-decoration: none;"> <h6 style="text-align: right;margin: 0px;">Read more...</h6></a>
+                
+
+                </div>
+             
+                <div class="card">
+                    <h2 style="text-align: center; font-size: 30px;"> Young story</h2>
+                    <a href="display.html">
+                        <img src="./img/young.jpg.crdownload" class="card-pic"></a>
+                    <p style="font-size: medium; margin: 0px; font-weight: lighter; text-decoration: none;"> Posted by: <b> Benjamin</b></p>
+                    <p style="font-size: small; font-weight: lighter;margin-bottom: 0px;"> believe I am a person who dreams big and has big ambitions in life. ... I believe I am a person with empathy. I usually don't get angry and I always try to understand why pe....</p>
+                    <a href="display.html" style="text-decoration: none;"> <h6 style="text-align: right;margin: 0px;">Read more...</h6></a>
+                
+
+                </div>
+             
+             
+                <div class="card">
+                    <h2 style="text-align: center; font-size: 30px;"> Woman Makeup</h2>
+                    <a href="display.html">
+                        <img src="./img/woman.jpg" class="card-pic"></a>
+                    <p style="font-size: medium; margin: 0px; font-weight: lighter; text-decoration: none;"> Posted by: <b> Benjamin</b></p>
+                    <p style="font-size: small; font-weight: lighter;margin-bottom: 0px;"> believe I am a person who dreams big and has big ambitions in life. ... I believe I am a person with empathy. I usually don't get angry and I always try to understand why pe....</p>
+                    <a href="display.html" style="text-decoration: none;"> <h6 style="text-align: right;margin: 0px;">Read more...</h6></a>
+                
+
+                </div>
+                <div class="card">
+                    <h2 style="text-align: center; font-size: 30px;"> My Story</h2>
+                    <a href="display.html">
+                        <img src="./img/me.jpg" class="card-pic"></a>
+                    <p style="font-size: medium; margin: 0px; font-weight: lighter; text-decoration: none;"> Posted by: <b> Benjamin</b></p>
+                    <p style="font-size: small; font-weight: lighter;margin-bottom: 0px;"> believe I am a person who dreams big and has big ambitions in life. ... I believe I am a person with empathy. I usually don't get angry and I always try to understand why pe....</p>
+                    <a href="display.html" style="text-decoration: none;"> <h6 style="text-align: right;margin: 0px;">Read more...</h6></a>
+                
+
+                </div>
+         
+                     
+              </div>
+
+              
+              <div id="id01"class="login-card modal">
+                      
+                <div  class="">
+    
+                  
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                   
+                  </div>
+                  <div style="margin-top: 20px;">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" class="txtlogin" required>
+              
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" class="txtlogin" required>
+                  </div>
+                   
+                    
+                      <div >
+                        <button type="submit" style="float: right;">Login</button>
+
+                      </div>
+                      <div>
+
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                          </label>
+                      </div>
+                 <div style="margin: 30px 40px 10px;">
+
+                  
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                 </div>
+              
+                
+              </div>
+  
+                  </div>
+
+
+    </body>
+</html>
